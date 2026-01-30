@@ -1,181 +1,82 @@
-# Shell Scripting Learning Repository
+# 🐚 Shell Scripting – Learning Repository
 
-This repository contains shell scripts created while learning **Linux Shell Scripting** as part of my DevOps preparation.  
-The scripts start from basic concepts and gradually move toward real-world automation tasks commonly used in production environments.
+This repository documents my **hands-on learning of Shell (Bash) Scripting**, where I practiced core concepts step by step using simple and practical examples.
 
----
-
-## Repository Overview
-
-The repository is organized in a step-by-step manner, where each script focuses on a specific shell scripting concept such as variables, conditions, loops, functions, logging, backups, and system monitoring.
+The scripts are written in a **beginner-friendly**, **readable**, and **DevOps-oriented** manner.
 
 ---
 
-## Repository Structure
+## 📌 What You’ll Find in This Repository
 
-
----
-
-## Topics Covered
-
-### 1. Shell Scripting Basics
-- Script structure
-- Execution permissions
-- Hello World program
-
-**Files**
-- `01-hello-world.sh`
+- Core shell scripting fundamentals  
+- Real-world scripting practices  
+- Error handling and logging  
+- Automation-ready concepts used in DevOps  
 
 ---
 
-### 2. Variables and Data Types
-- Variable declaration and usage
-- Read-only variables
-- Data types in shell scripting
+## 📂 Scripts Overview
 
-**Files**
-- `02-variables.sh`
-- `03-variables.sh`
-- `04-variables.sh`
-- `05-variables.sh`
-- `06-data-type.sh`
+Scripts are numbered in learning order for easy understanding.
 
----
+### 🔹 Basics
+- `01-hello-world.sh` → First shell script (Hello World)
+- `02-conversation.sh` → User input using `read`
 
-### 3. Arrays
-- Declaring arrays
-- Accessing array elements
-- Iterating through arrays
+### 🔹 Variables & Data Types
+- `03-variables.sh` → Variable declaration
+- `04-variables.sh` → Variable reassignment
+- `05-variables.sh` → Command substitution
+- `06-variables.sh` → Environment variables
+- `07-variables.sh` → Variable best practices
+- `08-data-types.sh` → Strings and numbers
 
-**Files**
-- `07-arrays.sh`
+### 🔹 Conditions & Control Flow
+- `09-conditions.sh` → `if`, `else`, `elif`
 
----
+### 🔹 Automation & Functions
+- `10-installation.sh` → Package installation automation
+- `11-functions.sh` → Functions in shell scripting
 
-### 4. Special Variables
-- Positional parameters
-- Exit status
-- Process-related variables
+### 🔹 Logs & Redirection
+- `12-logs.sh` → Output, error, and log redirection
 
-**Files**
-- `08-special-vars.sh`
+### 🔹 Loops
+- `13-loops.sh` → `for` loop
+- `14-loops.sh` → `while` loop
+- `15-loops.sh` → Loop with conditions
 
----
+### 🔹 Output Formatting
+- `16-colors.sh` → Basic colored output
+- `17-colors.sh` → Advanced color formatting
 
-### 5. Conditional Statements
-- if, else, elif
-- Case statements
-
-**Files**
-- `09-conditions.sh`
-
----
-
-### 6. Package Installation Automation
-- Installing packages using shell scripts
-- User and permission validation
-
-**Files**
-- `10-install-script.sh`
+### 🔹 Error Handling & Signals
+- `18-set.sh` → `set -e`, `set -x`, `set -o pipefail`
+- `19-trap.sh` → Signal handling
+- `20-trap.sh` → Cleanup using `trap`
 
 ---
 
-### 7. Functions
-- Creating and using functions
-- Code reusability
+## 🧠 Concepts Covered
 
-**Files**
-- `11-functions.sh`
-
----
-
-### 8. Output Formatting
-- Using colors in shell scripts
-- Improving readability of output
-
-**Files**
-- `12-colors.sh`
+- Shell script structure
+- Variables and data types
+- User input handling
+- Conditional logic
+- Loops and functions
+- Logging and redirection
+- Colored terminal output
+- Error handling with `set`
+- Signal handling using `trap`
 
 ---
 
-### 9. Logs and Redirection
-- Output redirection
-- Logging script execution
+## ▶️ How to Run the Scripts
 
-**Files**
-- `13-logs.sh`
-
----
-
-### 10. Loops
-- for loops
-- while loops
-- Iterative automation
-
-**Files**
-- `14-loops.sh`
-- `15-loops.sh`
-- `17-while.sh`
-
----
-
-### 11. Log Cleanup Automation
-- Identifying old log files
-- Automated deletion of logs
-
-**Files**
-- `16-delete-old-logs.sh`
-
----
-
-### 12. Backup Automation
-- File and directory backups
-- Timestamp-based backups
-
-**Files**
-- `18-backup.sh`
-
----
-
-### 13. Disk Usage Monitoring
-- Monitoring disk space
-- Alerting based on threshold limits
-
-**Files**
-- `19-disk-usage.sh`
-
----
-
-### 14. Real-World Shell Scripting (Expense Project)
-- Script modularization
-- Using source command
-- Reusable shell components
-
-**Files**
-- `20-script-1.sh`
-- `21-script-2.sh`
-- `22-source-test.sh`
-
----
-
-## How to Run the Scripts
-
-Grant execution permission:
+1️⃣ Clone the repository
 ```bash
+git clone https://github.com/your-username/your-repo-name.git
+
 chmod +x script-name.sh
 
 ./script-name.sh
-
-```
-
-Or
-
-```bash
-sh script-name.sh
-```
-
-Or 
-```bash
-bash script-name.sh
-```
-
