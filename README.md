@@ -164,9 +164,13 @@ Grant execution permission:
 ```bash
 chmod +x script-name.sh
 
-Run the script:
 ./script-name.sh
 
-Or execute using bash:
+Or
+
+sh script-name.sh
+
+Or 
+
 bash script-name.sh
 
