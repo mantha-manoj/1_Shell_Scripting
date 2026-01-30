@@ -170,9 +170,12 @@ chmod +x script-name.sh
 
 Or
 
+```bash
 sh script-name.sh
+```
 
 Or 
-
+```bash
 bash script-name.sh
+```
 
