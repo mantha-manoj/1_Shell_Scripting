@@ -17,6 +17,7 @@ VALIDATE() {
         exit 1
     else 
         echo "$2 ... SUCCESS" | tee -a $LOGS_FILE
+    fi
 }
 
 for package in $@
