@@ -21,7 +21,7 @@ VALIDATE() {
     fi 
 }
  
-dnf install nginx -y 
+dnf install nginx -y &>> $LOGS_FILE
 VALIDATE $? "Installing Nginx"
 
 dnf install mysql -y
