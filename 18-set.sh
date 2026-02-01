@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e 
 
 USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
