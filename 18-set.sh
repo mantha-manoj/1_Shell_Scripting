@@ -1,5 +1,6 @@
 USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
+mkdir -p $LOGS_FOLDER
 LOGS_FILE="/var/log/shell-script/$0.log"
 R="\e[31m"
 G="\e[32m"
@@ -11,7 +12,7 @@ if [ $USERID -ne 0 ]; then
     exit 1
 fi
 
-mkdir -p $LOGS_FOLDER
+
 
 VALIDATE(){
     if [ $1 -ne 0 ]; then
