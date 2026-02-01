@@ -1,3 +1,5 @@
+set -e 
+
 USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
 mkdir -p $LOGS_FOLDER
