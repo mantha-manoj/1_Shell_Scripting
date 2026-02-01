@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-trap 'There is top' ERR
+trap 'echo "There is an error in $LINENO, Command: $BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
