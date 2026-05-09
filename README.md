@@ -80,3 +80,22 @@ git clone https://github.com/your-username/your-repo-name.git
 chmod +x script-name.sh
 
 ./script-name.sh
+
+---
+
+## 👨‍💻 Author
+
+**Manoj Mantha**
+
+- GitHub: https://github.com/mantha-manoj
+- LinkedIn: https://www.linkedin.com/in/manoj-mantha/
+
+---
+
+## ⭐ Support
+
+If you found this project useful:
+
+- Star this repository ⭐
+- Fork it 🍴
+- Connect with me on LinkedIn 🤝
